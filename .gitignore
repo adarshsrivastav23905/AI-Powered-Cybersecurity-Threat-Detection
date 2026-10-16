@@ -5,6 +5,7 @@ __pycache__/
 venv/
 .env
 .pytest_cache/
+.coverage
 .DS_Store
 outputs/*.png
 models/*.pkl

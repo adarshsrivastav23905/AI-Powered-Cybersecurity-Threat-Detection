@@ -24,8 +24,11 @@ def prepare_features_for_training(dataset: pd.DataFrame):
         df = df.drop(columns=["destination_ip"])
 
     df = df.fillna(df.median(numeric_only=True))
-    for column in df.select_dtypes(include=["object", "category"]).columns:
-        df[column] = df[column].fillna(df[column].mode()[0])
+    for column in df.columns:
+        if not pd.api.types.is_numeric_dtype(df[column]):
+            mode = df[column].mode()
+            if not mode.empty:
+                df[column] = df[column].fillna(mode.iloc[0])
 
     feature_columns = [column for column in df.columns if column not in {"label", "attack_type", "severity"}]
     X = pd.get_dummies(df[feature_columns], drop_first=False)

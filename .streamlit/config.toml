@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+primaryColor = "#46E0BD"
+backgroundColor = "#080F1B"
+secondaryBackgroundColor = "#101D2F"
+textColor = "#E8EEF8"
+borderColor = "#26364B"
+font = "sans serif"
+
+[theme.dark]
+chartCategoricalColors = ["#46E0BD", "#76A9FF", "#F3BC66", "#F27882", "#B49AFF"]
+greenColor = "#46E0BD"
+blueColor = "#76A9FF"
+orangeColor = "#F3BC66"
+redColor = "#F27882"
+violetColor = "#B49AFF"
