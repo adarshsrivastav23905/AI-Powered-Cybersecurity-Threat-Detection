@@ -61,7 +61,7 @@ The pipeline can be run from the terminal, and the dashboard can be explored in 
   - Model performance
 - Dashboard filters for attack category and alert severity
 - Visual outputs for category counts, alert activity, feature importance, and anomaly distribution
-- Pytest coverage for generation, preprocessing, splitting, training, alerting, and model serialization
+- Pytest coverage for generation, preprocessing, splitting, training,     alerting, and model serialization
 - No GPU or real network access required
 
 ---
