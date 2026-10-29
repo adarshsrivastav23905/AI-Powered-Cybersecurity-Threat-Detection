@@ -14,7 +14,7 @@ Artificial Intelligence | Cybersecurity | Python | Machine Learning
 
 ## 📌 Project Overview
 
-The **AI-Powered Cybersecurity Threat Detection System** is an educational security analytics project. It demonstrates how a detection workflow can turn network-like event records into predictions, anomaly scores, and alerts for analyst review.
+The **AI-Powered Cybersecurity Threat Detection System** is an educational security analytics project. It.  demonstrates how a detection workflow can turn network-like event records into predictions, anomaly scores, and alerts for analyst review.
 
 The project generates a reproducible synthetic dataset containing normal events and simulated attack categories:
 
